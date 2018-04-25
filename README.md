@@ -8,7 +8,7 @@ Run it live at [cat-clicker.grantiverson.me](http://cat-clicker.grantiverson.me)
 
 ## Download
 
-These instructions will allow you to get a copy of the project that runs on your local machine
+These instructions will allow you to get a copy of the project that runs on your local machine.
 
 ### Prerequisites
 
@@ -18,9 +18,9 @@ These instructions will allow you to get a copy of the project that runs on your
 ### Installing
 
 Instructions to clone and run the project:
-1. Clone the git project using `$ git clone https://github.com/grantiverson/cat-clicker.git`
-2. Navigate to the root directory for the project
-3. Open index.html in your favorite browser
+1. Clone the git project using `$ git clone https://github.com/grantiverson/cat-clicker.git`.
+2. Navigate to the root directory for the project.
+3. Open index.html in your favorite browser.
 
 ## Built with
 
