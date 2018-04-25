@@ -12,7 +12,7 @@ These instructions will allow you to get a copy of the project that runs on your
 
 ### Prerequisites
 
-* Git
+* [Git](https://git-scm.com/downloads)
 * Browser
 
 ### Installing
