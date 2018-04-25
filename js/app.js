@@ -65,6 +65,8 @@
 
         cancelAdmin: function() {
             document.getElementById('admin-console').style.display = 'none';
+
+            mainView.render();
         },
 
         submitAdmin: function() {
@@ -128,12 +130,12 @@
             document.getElementById('admin-button').addEventListener('click', function() {
                 controller.openAdmin();
             });
-            document.getElementById('cancel-input').addEventListener('click', function() {
+            document.getElementById('cancel-input').addEventListener('click', function(event) {
                 event.preventDefault();
-                controller.openAdmin();
+                controller.cancelAdmin();
             });
             document.getElementById('submit-input').addEventListener('click', function(event) {
-              event.preventDefault();
+                event.preventDefault();
                 controller.submitAdmin();
             });
         }
